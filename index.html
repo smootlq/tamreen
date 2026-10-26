@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+<title>تمرين – يومي</title>
+<meta name="description" content="تمارين بيت يومية قصيرة ومنوعة، مصممة لعقل ADHD">
+<meta name="theme-color" content="#0f1115">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="تمرين">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="app">
+  <main id="view" class="view"></main>
+  <nav class="tabs" id="tabs">
+    <button data-tab="home" class="active"><span>🏠</span>اليوم</button>
+    <button data-tab="library"><span>📚</span>المكتبة</button>
+    <button data-tab="progress"><span>🔥</span>تقدّمي</button>
+    <button data-tab="plan"><span>⏰</span>خطتي</button>
+    <button data-tab="why"><span>🧠</span>ليش ينفع</button>
+  </nav>
+</div>
+<div id="overlay" class="overlay hidden"></div>
+<canvas id="confetti" class="confetti"></canvas>
+<script src="exercises.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
